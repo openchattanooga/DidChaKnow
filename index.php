@@ -171,7 +171,7 @@ body
 
 <div id="footer">
 	 <p style="text-align:center;">
-	 	<span><a href="mailto:submitanopendatafactcha@gmail.com?Subject=Fact%20Suggestion&Body=Delete%20this%20text%2C%20and%20then%20include%20the%20fact%20you%27d%20like%20to%20submit%21%20Please%20also%20include%20a%20link%20to%20the%20dataset%20the%20fact%20was%20drawn%20from%20as%20well.%0A%0A" style="color:#FFFFFF; text-decoration:none;" >Submit a Fact</a> - Made by Jake Brown - <a href="/insert.php" style="color:#FFFFFF; text-decoration:none;"  >Source on Github</a> - <a href="https://chattanooga.demo.socrata.com/" style="color:#FFFFFF; text-decoration:none;"  >Data from Chattanooga Open Data</a></span>
+	 	<span><a href="mailto:submitanopendatafactcha@gmail.com?Subject=Fact%20Suggestion&Body=Delete%20this%20text%2C%20and%20then%20include%20the%20fact%20you%27d%20like%20to%20submit%21%20Please%20also%20include%20a%20link%20to%20the%20dataset%20the%20fact%20was%20drawn%20from%20as%20well.%0A%0A" style="color:#FFFFFF; text-decoration:none;" >Submit a Fact</a> - Made by Jake Brown - <a href="/insert.php" style="color:#FFFFFF; text-decoration:none;"  >Source on Github</a> - <a href="https://github.com/jake-sl/DidChaKnow/" style="color:#FFFFFF; text-decoration:none;"  >Data from Chattanooga Open Data</a></span>
 	 </p>
 </div>
 	       
