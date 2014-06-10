@@ -13,11 +13,11 @@
         `.-:://////////////:.` `-:::::. `----     
              `.-::///////////:-` `-::::. .---     
        `.::-..`  ``.-://////////-` .-:::` ---     
-    `.:/++++++//:-.`` ``.-:///////-``.-::``--     DidChaKnow
- `.:/++++++++++++++///:-.```.-::////:.`.:-``-     Jake Brown
--/+++++++++++++++++++++++//:-..``.-::/:.`.- .     Chattanooga Public Library
-//////+++++++++++++++++++++++++//:-....--.``      http://jake.sl/DidChaKnow
-```````````.........---------:::::::::-..``       http://chattlibrary.org/4th-floor
+    `.:/++++++//:-.`` ``.-:///////-``.-::``--     
+ `.:/++++++++++++++///:-.```.-::////:.`.:-``-    
+-/+++++++++++++++++++++++//:-..``.-::/:.`.- .     
+//////+++++++++++++++++++++++++//:-....--.``      
+```````````.........---------:::::::::-..``      
 `````````````.........--------:::::::::-.``       
 /+++++++++++++++++++++++++++++++//:-...-:-..`     
 :++++++++++++++++++++++++++/:-.``.-:/++:.-/.+     
@@ -39,6 +39,11 @@
                                 -yyyyyo:`         
                                 /oss/. 
                                 
+  DidChaKnow
+  Jake Brown
+  Chattanooga Public Library
+  http://jake.sl/DidChaKnow
+  http://chattlibrary.org/4th-floor
 ================================================
 This is a simple PHP application that displays a random row from a MySQL database with each refresh. In addition, it includes a dynamic background which changes on each refresh. You can preview it at http://jake.sl/DidChaKnow
 
