@@ -12,7 +12,7 @@
 
 
 	<script type="text/javascript"> 
-	var totalCount = 19;
+	var totalCount = 2;
 
 	function ChangeIt() {
 		var num =  Math.ceil( Math.random() * totalCount );
