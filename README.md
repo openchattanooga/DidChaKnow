@@ -45,11 +45,7 @@ This is a simple PHP application that displays a random row from a MySQL databas
 
 Instructions for Setup:
 
-1. Configure a MySQL database to be used with the application. You can do this in the config.php file by specifying the database host, name, user, and password. Important note: When you upload this file to your server, give the config.php file a non world readble permission. Something like 600 would do the trick.
-
-The SQL query is near line 160 of index.php. By default, it refers to table name "Questions" and column name "Fact." If you're creating a new database, no need to change them. Otherwise, change it to your table of choice.
-
-Once your database is created, you'll want to create the table. In your shell with mysql running, you can run the query:
+1. Configure a MySQL database to be used with the application. You can do this in the config.php file by specifying the database host, name, user, and password. Important note: When you upload this file to your server, give the config.php file a non world readble permission. Something like 600 would do the trick. The SQL query is near line 160 of index.php. By default, it refers to table name "Questions" and column name "Fact." If you're creating a new database, no need to change them. Otherwise, change it to your table of choice. Once your database is created, you'll want to create the table. In your shell with mysql running, you can run the query:
 
 CREATE TABLE Questions (id INT NOT NULL AUTO_INCREMENT, fact TEXT NOT NULL;
 
