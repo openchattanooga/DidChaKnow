@@ -60,6 +60,7 @@ If you need help doing that, this is a helpful guide: http://www.wikihow.com/Sen
 
 3. Everything should be running peachy now. The only step left is to populate your database with facts. I've been using the program "Sequel Pro" to do this. MySQL Workbench would also work well for this, but that just depends on the system you're running and your personal preference. 
 
+I'll do a dump of a test database and put that up soon. That will make setup easier. 
 That's it!
 
 ====
