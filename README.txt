@@ -45,23 +45,19 @@
   http://jake.sl/DidChaKnow
   http://chattlibrary.org/4th-floor
 ================================================
-This is a simple PHP application that displays a random row from a MySQL database with each refresh. In addition, it includes a dynamic background which changes on each refresh. You can preview it at http://jake.sl/DidChaKnow
+This is a simple PHP application that displays a random row from a MySQL database with each refresh. In addition, it includes a dynamic background which changes on each refresh. It was built as a method of public engagement with Chattanooga Open Data. You can preview it at http://jake.sl/DidChaKnow
+====================
+Install Instructions:
 
+1. Get your web server up and going. (Requires PHP and MySql. The entire read me could be about this). Refer to http://bit.ly/1sLDg7T if that’s unclear.
 
-Instructions for Setup:
+2. Copy the repository to your web server’s directory. Simply cloning the repo should do the trick. Refer to http://bit.ly/1nOsSFi if that’s unclear.
 
-1. Configure a MySQL database to be used with the application. You can do this in the config.php file by specifying the database host, name, user, and password. Important note: When you upload this file to your server, give the config.php file a non world readble permission. Something like 600 would do the trick. The SQL query is near line 160 of index.php. By default, it refers to table name "Questions" and column name "Fact." If you're creating a new database, no need to change them. Otherwise, change it to your table of choice. Once your database is created, you'll want to create the table. In your shell with mysql running, you can run the query:
+3. Create your MySql database. The easy way (which is always my favorite way) is to create your database in terminal on your server and then connect to it with a graphical application like MySql Workbench or Sequel Pro. Included in the repo is an example database. All you have to do is populate it with data (which is easy to do in the aforementioned programs). Refer to http://bit.ly/1m6ADK1 if that’s unclear.
 
-CREATE TABLE Questions (id INT NOT NULL AUTO_INCREMENT, fact TEXT NOT NULL;
+4. edit config.php on your web server, inserting the information in their clearly marked spaces.
 
-If you need help doing that, this is a helpful guide: http://www.wikihow.com/Send-Sql-Queries-to-Mysql-from-the-Command-Line
-
-2. Now that your config.php file is filled in, put it on your web server. This could be a guide in and of itself, so reference this if you need help. http://www.howtoforge.com/ubuntu_lamp_for_newbies
-
-3. Everything should be running peachy now. The only step left is to populate your database with facts. I've been using the program "Sequel Pro" to do this. MySQL Workbench would also work well for this, but that just depends on the system you're running and your personal preference. 
-
-I'll do a dump of a test database and put that up soon. That will make setup easier. 
-That's it!
+5. Set the permissions on config.php to something like 644.
 
 ====
 
