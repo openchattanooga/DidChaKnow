@@ -63,7 +63,7 @@ Install Instructions:
 
 Note on Images:
 
-The images included in this repository are licensed for not-for-profit use only by their respective copyright holders. They are included only as examples and excluded from the license which covers the software as a whole.
+Images are licensed under a Creative Commons Attribution 4.0 International License and are excluded the license of DidChaKnow as a whole.
 
 Images must be labeled as 1.gif, 2.gif, 3.gif, etc. The default number of images is set to 2. This can be changed by setting var totalCount = 2; to whatever you'd like. NameChanger is a good application for mass-renaming a collection of images.
 
